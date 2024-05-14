@@ -1,0 +1,44 @@
+/* Dashboard.css */
+
+.form-horizontal .form-group {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.table-bordered {
+  margin: 30px;
+  border: 1px solid #dee2e6;
+}
+
+.table th {
+  background-color: #dd5a65; /* Light red background */
+  color: #fff; /* White text color */
+}
+
+.table td,
+.table th {
+  padding: 8px; /* Adjust padding for better spacing */
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #dee2e6; /* Add lines in the table */
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+}
+
+.total-text {
+  margin-right: 10px;
+}
+
+.btn-export {
+  background-color: #1f2b38;
+  color: white;
+  border-radius: 10px;
+  padding: 8px 20px;
+  margin-bottom: 20px;
+}
+

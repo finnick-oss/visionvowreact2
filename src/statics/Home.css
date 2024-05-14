@@ -1,0 +1,24 @@
+/* Home.css */
+
+.home-container {
+    padding: 50px; /* Add padding to the container */
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px; /* Add margin to create space between title and paragraph */
+  }
+  
+  .subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px; /* Add margin to create space between paragraphs */
+  }
+  
+  .paragraph {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px; /* Add margin to create space between paragraphs */
+  }
+  

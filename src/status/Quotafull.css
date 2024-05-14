@@ -1,0 +1,37 @@
+/* Quotafull.css */
+
+.quota-full-page {
+    margin: 50px;
+  }
+  
+  .quota-full-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .quota-full-table-container {
+    overflow-x: auto;
+  }
+  
+  .quota-full-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .quota-full-table th,
+  .quota-full-table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+  }
+  
+  .quota-full-table th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .quota-full-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  

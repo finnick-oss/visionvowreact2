@@ -1,0 +1,16 @@
+/* Footer.css */
+
+.footer {
+  position: relative; /* Position the footer relative to its containing element */
+ 
+  background-color: #1f2b38; /* Background color */
+  color: white; /* Text color */
+  padding: 20px; /* Add padding */
+  text-align: center; /* Center align text */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+}
+

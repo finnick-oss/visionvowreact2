@@ -1,0 +1,38 @@
+/* Complete.css */
+
+.complete-table-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .complete-table {
+    margin: 30px;
+    border: 1px solid #dee2e6;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  .complete-table th {
+    background-color: #dd5a65;
+    color: #fff;
+    padding: 8px;
+  }
+  
+  .complete-table td,
+  .complete-table th {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+  }
+  
+  .complete-table thead th {
+    text-align: center;
+  }
+  
+  .complete-table tbody td {
+    text-align: center;
+  }
+  
+  .complete-title {
+    text-align: center;
+  }
+  

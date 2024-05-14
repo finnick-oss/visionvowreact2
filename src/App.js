@@ -1,24 +1,37 @@
-import logo from './logo.svg';
+// App.js
+
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Header from './statics/Header';
+import Footer from './statics/Footer';
+import Home from './statics/Home';
+import AboutUs from './statics/AboutUs';
+import Dashboard from './statics/Dashboard';
+import ContactUs from './statics/ContactUs';
+import CompletedPage from './status/CompletedPage';
+import TerminatePage from './status/TerminatePage';
+import QuotaFullPage from './status/QuotaFullPage';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <main>
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/aboutus" component={AboutUs} />
+            <Route path="/dashboard" component={Dashboard} />
+            <Route path="/contactus" component={ContactUs} />
+            <Route path="/redirect/complete" exact render={(props) => <CompletedPage {...props} />} />
+            <Route path="/redirect/terminate" exact render={(props) => <TerminatePage {...props} />} />
+            <Route path="/redirect/quotafull" exact render={(props) => <QuotaFullPage {...props} />} />
+          </Switch>
+        </main>
+       <Footer/>
+      </div>
+    </Router>
   );
 }
 
