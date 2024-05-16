@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { withRouter } from 'react-router-dom';
 import './Dashboard.css';
 
-const Dashboard = ({}) => {
+const Dashboard = () => {
   const [data, setData] = useState([]);
 
   
