@@ -1,7 +1,6 @@
 // Home.js
 
 import React from 'react';
-import Footer from './Footer';
 import './Home.css'; // Import CSS file for styling
 
 const Home = () => {
